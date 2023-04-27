@@ -1,11 +1,12 @@
 -- Task 1
 create database bgg;
 
--- login with root, create user fred and grant rights. then login with user fred and use created database
-create user 'fred'@'localhost' identified by 'fred';
-grant ALL PRIVILEGES ON bgg.* TO 'fred'@'localhost';
+-- -- login with root, create user fred and grant rights. then login with user fred and use created database
+-- create user 'fred'@'localhost' identified by 'fred';
+-- grant ALL PRIVILEGES ON bgg.* TO 'fred'@'localhost';
 
 use bgg;
+-- for railway deployment, use railway auto created database;
 
 CREATE TABLE `user` (
   `user_id` VARCHAR(8) NOT NULL,
