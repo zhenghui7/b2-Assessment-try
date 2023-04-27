@@ -1,4 +1,4 @@
-package vttp2022.paf.assessment.server;
+package ibf2022.paf.assessment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
